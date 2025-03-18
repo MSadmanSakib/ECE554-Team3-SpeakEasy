@@ -6,7 +6,7 @@
 	
 	Testing the Vosk model:
 	- Successfully implemented real-time speech recognition using the Vosk model on native Windows.
-	- Used Python libraries like sounddevice and vosk to capture audio from the microphone and transcribe it in real-time (testing the Vosk model, which works but highly accurate).
+	- Used Python libraries like sounddevice and vosk to capture audio from the microphone and transcribe it in real-time (testing the Vosk model, which works but not highly accurate).
 	- Tested the implementation with multiple audio inputs and verified its accuracy.
 	- Identified that WSL2 (Windows Subsystem for Linux) does not support direct access to audio devices, which prevented real-time speech recognition in the Ubuntu environment.
 	- Explored workarounds, including using Windows for audio capture and passing data to WSL2, but decided to focus on native RISC-V deployment for the next steps.

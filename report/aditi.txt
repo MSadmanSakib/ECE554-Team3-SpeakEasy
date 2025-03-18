@@ -1,0 +1,18 @@
+3/12/25 - 3/18/25
+
+    Ibex Softcore:
+    - Instantiated Ibex Softcore.
+    - Resolved Python-based build dependencies - FuseSoC, PyBoolector, CMake - for the RTL file list.
+    - Wrote a TCL script for the project in Quartus.
+    - Tried (unsuccessfully) to compile in Quartus. 
+      Several syntax issues caused by compatibility, project structure and misconfigured parameters. 
+      Plan to discuss with team and with TA. 
+
+----------------------------------------------------------------------------------------------------------
+
+2/20/25 - 3/11/25
+
+    - Proposal - Lightning Talk
+    - Architecture Review
+    - Microarchitecture Review
+    - Secondary research, small experiments, diagramming and planning

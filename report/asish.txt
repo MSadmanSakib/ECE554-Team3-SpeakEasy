@@ -1,0 +1,25 @@
+03/14 - 03/18
+
+	RISC-V Toolchain Setup:
+	- Set up the RISC-V GNU Toolchain on my local machine.
+	- Successfully cross-compiled a simple "Hello, RISC-V!" program and ran it on QEMU to verify the toolchain.
+	
+	Testing the Vosk model:
+	- Successfully implemented real-time speech recognition using the Vosk model on native Windows.
+	- Used Python libraries like sounddevice and vosk to capture audio from the microphone and transcribe it in real-time (testing the Vosk model, which works but highly accurate).
+	- Tested the implementation with multiple audio inputs and verified its accuracy.
+	- Identified that WSL2 (Windows Subsystem for Linux) does not support direct access to audio devices, which prevented real-time speech recognition in the Ubuntu environment.
+	- Explored workarounds, including using Windows for audio capture and passing data to WSL2, but decided to focus on native RISC-V deployment for the next steps.
+	
+	Next steps:
+	- Finalize the C/C++ implementation of the Vosk model for real-time speech recognition.
+	- Cross-compile the Vosk API and Kaldi library for RISC-V, or possibly explore other options depending on team's feedback.
+	- I want to be able to run the Vosk model using the riscv32-unknown-elf-gcc (toolchain) compiler in real-time.
+	
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Till 03/13/25
+
+	- Worked on Proposal, Architecture review and microarchitecture review presentations.
+	- Splitting work among team members.
+	

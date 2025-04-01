@@ -1,0 +1,16 @@
+Rohan Rao ECE554 Weekly Updates
+
+3/12/25 - 3/18/25
+
+    VPU Implementation :
+    -  Started with a demo VPU with 4 stages (ID, EX, WB, M)
+    -  Created a Register file with 8x 32 bytes
+    -  Created a Memory (BRAM buffer) to store the outputs of the VPU
+    -  Started to Test implementation in ModelSim of just the VPU with different types of instructions
+
+----------------------------------------------------------------------------------------------------------
+
+2/20/25 - 3/11/25
+    - Worked on microarchitecture, deciding on VPU architecture
+    - Worked on the Microarchitecture Review Presentation
+    - Spent a Majority of my time looking into VPU architectures and figuring out the microarchitecture.

@@ -1,3 +1,26 @@
+5/4/25 - 4/10/25
+
+JTAG-UART & PySerial
+    - Looked into JTAG-UART and PySerial as an alternative to send a hex file of the model to the SDRAM.
+    - Built  UART Rx and Tx functionality for the FPGA.
+    - Created a PySerial-based script to send data from the host computer.
+    - Tested in simulation and in hardware by sending data to turn LEDs on and off. 
+
+TFLite Micro Model
+    - Tried converting the Micro model into a .tflite flatbuffer and then C byte array.
+
+----------------------------------------------------------------------------------------------------------
+
+3/19/25 - 4/4/25
+
+PicoRV32 Softcore:
+    - Instantiated PicoRV32 Softcore.
+    - Built a memory module and wrote a testbench to verify in simulation.
+    - Memory-mapped LEDs and verified in simulation.
+    - Tried debugging memory-mapped LEDs in hardware.
+
+----------------------------------------------------------------------------------------------------------
+
 3/12/25 - 3/18/25
 
     Ibex Softcore:
@@ -16,3 +39,6 @@
     - Architecture Review
     - Microarchitecture Review
     - Secondary research, small experiments, diagramming and planning
+
+
+

@@ -1,4 +1,12 @@
 Rohan Rao ECE554 Weekly Updates
+----------------------------------------------------------------------------------------------------------
+
+2/20/25 - 3/11/25
+    - Worked on microarchitecture, deciding on VPU architecture
+    - Worked on the Microarchitecture Review Presentation
+    - Spent a Majority of my time looking into VPU architectures and figuring out the microarchitecture.
+
+----------------------------------------------------------------------------------------------------------
 
 3/12/25 - 3/18/25
 
@@ -9,8 +17,16 @@ Rohan Rao ECE554 Weekly Updates
     -  Started to Test implementation in ModelSim of just the VPU with different types of instructions
 
 ----------------------------------------------------------------------------------------------------------
-
-2/20/25 - 3/11/25
-    - Worked on microarchitecture, deciding on VPU architecture
-    - Worked on the Microarchitecture Review Presentation
-    - Spent a Majority of my time looking into VPU architectures and figuring out the microarchitecture.
+3/19/25 - 4/4/25
+    - Took large scale VPU and simplified it to focus on instrutions that we need. 
+    - Worked on minimizing and performing instruciton tests on the VPU.
+----------------------------------------------------------------------------------------------------------
+4/5/25 - 4/11/25
+    - Worked on integrating the VPU into the CPU
+    - Ran both arithmetic and data tests on CPU+VPU integration
+    - Started to help working on the code and toolchain integration to run C Programs
+----------------------------------------------------------------------------------------------------------
+4/12/25 - 4/18/25
+    - Focusing on the code toolchain generation of hex and mif files.
+    - Tested different codes in C to ensure a working program
+    - Continue to test C program in ModelSim before final test on FPGA.

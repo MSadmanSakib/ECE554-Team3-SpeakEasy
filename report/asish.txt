@@ -1,3 +1,20 @@
+5/4/25 - 4/10/25
+
+TFLite Micro Model
+    - Converted the Micro model into a .tflite flatbuffer and then C byte array using ONNX2 library.
+	- First converted the .tflite model into a onnx file and then used onnx2 to convert into C(but has floating
+	point issues)
+
+----------------------------------------------------------------------------------------------------------
+
+3/19/25 - 4/4/25
+
+PicoRV32 Vector extension:
+    - To support the VPU, explored and ran tests on the zve32x extension of the rv32 instruction set
+    - Built and used libraries using Clang/LLVM/LLD
+    - Compiled sample C code and tested in simulation
+
+
 03/14 - 03/18
 
 	RISC-V Toolchain Setup:

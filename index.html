@@ -41,12 +41,23 @@
     <div class="container mt-4">
         <section id="summary">
             <h2>Project Summary</h2>
-            <p> SpeakEasy: Real-Time Speech-to-Text Processing with RISC-V and VPU Acceleration<br>
-SpeakEasy utilizes a state-of-the-art speech-to-text (STT) model, such as Vosk or DeepSpeech, to convert live speech into text. The system is powered by a RISC-V CPU alongside a Vector Processing Unit (VPU) to optimize performance.
-The RISC-V CPU is responsible for overall program control and task management, while the VPU accelerates the vector computations required for STT processing. Additionally,
-the VPU processes incoming audio signals, transforming them into structured formats such as frames or data bins for efficient model inference. The transcribed text is then transmitted to an external monitor via a serial I/O interface, such as SPART.
-Real-time transcription systems like SpeakEasy have a wide range of applications, including voice assistants, automated transcription services, and accessibility tools, enhancing communication and inclusivity in various domains.
-                
+            <h2>Buck Buck Go</h1>
+            <h2>Accelerated Softcore with Audio-Driven Game Functionality</h2>
+
+            <p>
+            Buck Buck Go marries an open-source RISC-V softcore processor (PicoRV32) with a custom Vector Processing Unit (VPU) on a Cyclone V FPGA. By leveraging vector instructions in BRAM, we accelerate parallel computations and graphics generation directly in hardware—ideal for high-throughput, real-time tasks.
+            </p>
+
+            <p>
+            The system accepts live audio from an on-board ADC and I²S interface, funnels samples through a FIFO into the CPU/VPU pipeline, and uses the VPU to perform vectorized arithmetic and memory operations. Game logic and VGA frame buffers (640×480 pixels) are driven entirely by our softcore, showcasing seamless integration of audio, video, and computation.
+            </p>
+
+            <p>
+            We validated functionality via simulation (Quartus Prime, ModelSim, SignalTap) and on-board tests: CPU I/O operations, VPU arithmetic, ADC-to-DAC audio loopback, and incremental video rendering. Results confirm robust real-time performance for interactive gameplay on the DE1-SoC.
+            </p>
+
+            <p>
+            Looking ahead, the scalable VPU architecture can accelerate a wide range of parallel workloads—beyond gaming—including on-device, audio-based machine learning (e.g., speech-to-text inference). This positions Buck Buck Go as a flexible platform for future embedded-AI and edge-computing applications.
             </p>
             <p><a href="https://github.com/MSadmanSakib/ECE554-Team3-SpeakEasy/tree/master" target="_blank">GitHub Repository</a></p>
         </section>

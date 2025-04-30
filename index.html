@@ -46,18 +46,32 @@
 
             <p>
             "Buck Buck Go" combines the open-source PicoRV32 CPU with a custom "V" Vector Extension Vector Processing Unit. This softcore processor is impelmented on the DE1-SoC Cyclone V FPGA. By leveraging vector instructions in BRAM, we accelerate parallel computations and graphics generation directly in hardware—ideal for high-throughput, real-time tasks.
-            </p>
 
-            <!-- Diagrams -->
-            <!-- <div class="text-center my-4">
-                <h5>Project Block Diagram</h5>
-                <img src="images/block-diagram.jpg" alt="Project Block Diagram" class="img-fluid mb-4">
-                <h5>Microarchitecture Diagram</h5>
-                <img src="images/microarchitecture.jpg" alt="Microarchitecture Diagram" class="img-fluid">
-            </div> -->
+            <figure style="display: inline-block; text-align: center; margin: 0 1em; vertical-align: middle;">
+                <img
+                  src="image/block-diagram.jpg"
+                  alt="VPU block diagram"
+                  width="600"
+                  style="display: block;">
+                <figcaption style="font-size: 2em; color: #555;">
+                  Block diagram
+                </figcaption>
+              </figure>
+            </p>
 
             <p>
             The system accepts live audio from an on-board ADC and I²S interface, funnels samples through a FIFO into the CPU/VPU pipeline, and uses the VPU to perform vectorized arithmetic and memory operations. Game logic and VGA frame buffers (640×480 pixels) are driven entirely by our softcore, showcasing seamless integration of audio, video, and computation.
+
+            <figure style="display: inline-block; text-align: center; margin: 0 1em; vertical-align: middle;">
+                <img
+                  src="image/microarchitecture.jpg"
+                  alt="VPU block diagram"
+                  width="600"
+                  style="display: block;">
+                <figcaption style="font-size: 2em; color: #555;">
+                Microarchitecture    
+                </figcaption>
+              </figure>
             </p>
 
             <p>

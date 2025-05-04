@@ -1,3 +1,16 @@
+04/19/25 - 04/28/25
+	- Designed and printed the project poster for our upcoming demo.
+	- Help with anything else the team needed, still significantly used our toolchain to compile and test code.
+
+	- Finalized the demo setup and verified end-to-end operation on hardware.
+
+4/12/25 -4/18/25
+	- Discovered that loading our neural-network model on the FPGA’s limited RAM/BRAM wasn’t going to work.
+
+	- Pivoted to an interactive game prototype instead.
+
+	- I helped write the game’s RISC-V software—implementation on the DE1-SoC.
+
 5/4/25 - 4/10/25
 
 TFLite Micro Model
